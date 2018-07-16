@@ -25,11 +25,12 @@ class HostsController < ApplicationController
   # POST /hosts.json
   def create
     @host = Host.new
+    @task = Task.new
     @host.user_id = current_user.id
 
     respond_to do |format|
       if @host.save
-        format.html { redirect_to @host, notice: 'Host was successfully created.' }
+        format.html { redirect_to new_task_path(@task) , notice: 'Host was successfully created.' }
         format.json { render :show, status: :created, location: @host }
       else
         format.html { render :new }
