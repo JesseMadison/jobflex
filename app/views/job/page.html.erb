@@ -1,26 +1,29 @@
-<% @tasks.each do |task| %>
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Task Title</th>
-      <th scope="col">Description</th>
-      <th scope="col">location</th>
-      <th scope="col">Date</th>
-      <th scope="col">Offering</th>
-      <th scope="col">Host Name</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row"><%= task.id %></th>
-      <td><%= task.task_title %></td>
-      <td><%= task.description %></td>
-      <td><%= task.location %></td>
-      <td><%= task.date %></td>
-      <td><%= task.offering %></td>
-      <td><%= task.host.user.name %></td>
-    </tr>
-  </tbody>
-</table>
-<% end %>
+
+<div class="container">
+
+
+  <div class="row">
+
+    <% @tasks.each do |task| %>
+    <div id='task-cards' class="col-sm">
+
+
+      <div class="card" style="width: 18rem;max-height: 600px;min-height: 600px;text-align: center;">
+        <img class="card-img-top" src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif" alt="Card image cap">
+          <div class="card-body">
+
+            <h5 class="card-title"><%= task.task_title %></h5>
+              <p class="card-text" style="min-height: 150px;"><%= task.description %></p>
+              <p class="card-text"><%=  task.location %></p>
+              <p class="card-text"><%= task.date %></p>
+              <p class="card-text"><%= task.offering %></p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+
+          </div>
+
+      </div>
+
+    </div>
+    <% end %>
+  </div>
+</div>
