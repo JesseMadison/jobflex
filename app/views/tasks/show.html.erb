@@ -17,7 +17,7 @@
 
 <p>
   <strong>Date:</strong>
-  <%= @task.date %>
+  <%= @task.date.strftime("%B %e, %Y at %I:%M %p")  %>
 </p>
 
 <p>
@@ -30,5 +30,6 @@
   <%= @task.host.user.name %>
 </p>
 
+<%= link_to 'Post a task' , employees_path(:task_id => @task.id), method: :post %>
 <%= link_to 'Edit', edit_task_path(@task) %> |
 <%= link_to 'Back', tasks_path %>
