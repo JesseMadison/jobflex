@@ -21,7 +21,7 @@
 </p>
 
 <p>
-  <strong>Offering:</strong>
+  <strong>Offering$</strong>
   <%= @task.offering %>
 </p>
 
@@ -29,7 +29,8 @@
   <strong>Host:</strong>
   <%= @task.host.user.name %>
 </p>
+<%= link_to "Buy", new_charge_path(:task_id => @task.id), method: :get, class: "btn btn-primary" %>
 
 <%= link_to 'Post a task' , employees_path(:task_id => @task.id), method: :post %>
 <%= link_to 'Edit', edit_task_path(@task) %> |
-<%= link_to 'Back', tasks_path %>
+<%= link_to 'Back', job_page_path %>

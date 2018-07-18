@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'job/preview'
   get 'job/page'
+  resources :charges, only: [:new, :create]
   resources :employees
   resources :tasks
   resources :hosts
