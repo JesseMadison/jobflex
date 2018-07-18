@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  task_title: MyString
+  description: MyString
+  location: MyString
+  date: 2018-07-16 11:38:03
+  offering: 1.5
+  host: one
+
+two:
+  task_title: MyString
+  description: MyString
+  location: MyString
+  date: 2018-07-16 11:38:03
+  offering: 1.5
+  host: two

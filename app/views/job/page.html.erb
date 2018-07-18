@@ -1,0 +1,29 @@
+
+<div class="container">
+
+
+  <div class="row">
+
+    <% @tasks.each do |task| %>
+    <div id='task-cards' class="col-sm">
+
+
+      <div class="card" style="width: 18rem;max-height: 600px;min-height: 600px;text-align: center;">
+        <img class="card-img-top" src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif" alt="Card image cap">
+          <div class="card-body">
+
+            <h5 class="card-title"><%= task.task_title %></h5>
+              <p class="card-text" style="min-height: 150px;"><%= task.description %></p>
+              <p class="card-text"><%=  task.location %></p>
+              <p class="card-text"><%= task.date %></p>
+              <p class="card-text"><%= task.offering %></p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+
+          </div>
+
+      </div>
+
+    </div>
+    <% end %>
+  </div>
+</div>
