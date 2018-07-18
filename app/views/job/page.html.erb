@@ -15,8 +15,9 @@
             <h5 class="card-title"><%= task.task_title %></h5>
               <p class="card-text" style="min-height: 150px;"><%= task.description %></p>
               <p class="card-text"><%=  task.location %></p>
-              <p class="card-text"><%= task.date %></p>
+              <p class="card-text"><%= task.date.strftime("%B %e, %Y at %I:%M %p") %></p>
               <p class="card-text"><%= task.offering %></p>
+              <%= link_to "Browse tasks", task_path(task) %>
               <a href="#" class="btn btn-primary">Go somewhere</a>
 
           </div>
