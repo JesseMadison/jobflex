@@ -1,5 +1,29 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 
+// Across the whole web app
+body{
+  background-color: #ebeced;
+}
+
 
 // job application styling
+#task-cards{
+  width: 21rem;
+  max-height: 600px;
+  min-height: 600px;
+  text-align: center;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 1px rgba(0,0,0,.08);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#card-desription{
+  min-height: 150px;
+}
+
+#card-button{
+  background-color: #0496FF;
+
+}

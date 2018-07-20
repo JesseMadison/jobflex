@@ -5,20 +5,20 @@
   <div class="row">
 
     <% @tasks.each do |task| %>
-    <div id='task-cards' class="col-sm">
+    <div  class="col-sm">
 
 
-      <div class="card" style="width: 18rem;max-height: 600px;min-height: 600px;text-align: center;">
-        <img class="card-img-top" src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif" alt="Card image cap">
+      <div id='task-cards' class="card" >
+        <h5 class="card-title"><%= task.task_title %></h5>
+        <img class="card-img-top" src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif" alt ="Card image cap">
           <div class="card-body">
 
-            <h5 class="card-title"><%= task.task_title %></h5>
-              <p class="card-text" style="min-height: 150px;"><%= task.description %></p>
+
+              <p id='card-desription' class='card-text' ><%= task.description  %></p>
               <p class="card-text"><%=  task.location %></p>
               <p class="card-text"><%= task.date.strftime("%B %e, %Y at %I:%M %p") %></p>
               <p class="card-text"><%= task.offering %></p>
-              <%= link_to "Browse tasks", task_path(task) %>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p id=card-button class="btn btn-primary"><%= link_to "Browse tasks",task_path(task), {:style=>'color: #173753;, text-decoration: none;'}%></p><!--  this part ^^^^ is used to style my link_to tags-->
 
           </div>
 
