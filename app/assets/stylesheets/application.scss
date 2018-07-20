@@ -1,9 +1,20 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+// navbar
+.bg-light {
+    background-color: #006494!important;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #E8F1F2;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+     color: #E8F1F2;
+}
+
 
 // Across the whole web app
 body{
-  background-color: #ebeced;
+  background-color: #F5F5F5;
 }
 
 
@@ -24,6 +35,6 @@ body{
 }
 
 #card-button{
-  background-color: #0496FF;
+  background-color: #006494;
 
 }
