@@ -1,3 +1,27 @@
 // Place all the styles related to the job controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+// job application styling
+#task-cards{
+  width: 21rem;
+  max-height: 600px;
+  min-height: 600px;
+  text-align: center;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 1px rgba(0,0,0,.08);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#card-desription{
+  min-height: 150px;
+}
+
+#card-button{
+  background-color: #006494;
+
+}

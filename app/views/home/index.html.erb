@@ -1,17 +1,22 @@
-<h1>Welcome to jobflex</h1>
+<div id="homepage">
+  <div class="container align-self-center">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="banner_content">
+          <h6>Jobflex</h6>
+          <h1>Work where ever you can imagine, work on your dreams when it suits you!</h1>
+          <div ><button type="button" class="btn btn-outline-light"><a id= 'post-a-task' rel="nofollow" data-method="post" href="/hosts">Post a task</a></div></button>
+          <%= link_to "Browse tasks", job_page_path %>
+          <p></p>
+        </div>
 
+      </div>
 
-<div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="/profiles/new" role="button">Create a profile</a>
-  <!-- <a class="btn btn-primary btn-lg" href="/hosts" method="post" role="button">Host a job</a> -->
-  <%= link_to 'Post a task' , hosts_path,  method: :post %>
-  <%= link_to "Browse tasks", job_page_path %>
+    </div>
 
-  <a class="btn btn-primary btn-lg" href="#" role="button"></a>
-  <a class="btn btn-primary btn-lg" href="#" role="button"></a>
-   <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
+  </div>
+
 </div>
+
+<!-- Created a partial for my footer -->
+<%= render'home/homepagefooter' %>
