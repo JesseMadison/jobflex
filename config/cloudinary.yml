@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: jessecloud
+  api_key: '382724436318278'
+  api_secret: b5jDK279LdXnDPVt31cCiQbQ23o
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: jessecloud
+  api_key: '382724436318278'
+  api_secret: b5jDK279LdXnDPVt31cCiQbQ23o
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: jessecloud
+  api_key: '382724436318278'
+  api_secret: b5jDK279LdXnDPVt31cCiQbQ23o
+  enhance_image_tag: true
+  static_image_support: false
