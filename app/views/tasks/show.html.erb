@@ -2,6 +2,8 @@
 
 
 
+<div class="container">
+
 
 
 
@@ -36,11 +38,7 @@
 </p>
 
 <%= render "attachments/form", attachment: @attachment , task: @task %>
-
-
-
-<%= link_to "Buy", new_charge_path(:task_id => @task.id), method: :get, class: "btn btn-primary" %>
-
-<%= link_to 'Post a task' , employees_path(:task_id => @task.id), method: :post %>
-<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to "Jobs complete", new_charge_path(:task_id => @task.id), method: :get, class: "btn btn-primary" %>
+<br>
 <%= link_to 'Back', job_page_path %>
+</div>

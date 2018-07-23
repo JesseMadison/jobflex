@@ -15,8 +15,8 @@
 
 #task-cards{
   width: 21rem;
-  max-height: 600px;
-  min-height: 600px;
+  max-height: 900px;
+  min-height: 900px;
   text-align: center;
   margin-bottom: 50px;
   box-shadow: 0 2px 1px rgba(0,0,0,.08);
@@ -24,8 +24,8 @@
   overflow: hidden;
 }
 
-#card-desription{
-  min-height: 150px;
+#card-contents{
+  min-height: 100px;
 }
 
 #card-button{

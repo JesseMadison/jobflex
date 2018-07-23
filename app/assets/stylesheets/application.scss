@@ -11,6 +11,24 @@
      color: #E8F1F2;
 }
 
+#navbar-links{
+  text-decoration: none;
+  color: white ;
+
+}
+#navbar-links:hover{
+  color: black;
+}
+
+#navbar-buttons{
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8f9fa;
+    border: 50px;
+
+}
+
 // search bar
 
 .btn-outline-success {
@@ -27,89 +45,8 @@
     padding-right: 30px;
 }
 
-// homepage
-#homepage {
-  background: image-url('Jobflex.jpg') no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
-  min-height: 1000px;
-}
-
-
-#post-a-task{
-  text-decoration: none;
-  color: white ;
-
-}
-#post-a-task:hover{
-  color: black;
-}
-
-.banner_content{
-  text-align: center !important;
-  color: #fff;
-}
-
-.banner_content h1 {
-    font-size: 60px;
-    line-height: 60px;
-    font-weight: 700;
-    padding: 8px 0px 20px;
-}
-
-// Home page footer
-.pt-4, .py-4 {
-    padding-top: 1.5rem !important;
-    background-color: #30343F;
-  }
-
-  .text-center {
-
-    color: whitesmoke;
-}
-// Footer link tags
-#footer-your-account{
-color: white;
-text-decoration: none;
-}
-
-#footer-jobflex{
-color: white;
-text-decoration: none;
-}
-
-#footer-future-of-work{
-color: white;
-text-decoration: none;
-}
-
-
-
 // Across the whole web app
 body{
   background-color: #F5F5F5;
   max-height: 100vh;
-}
-
-
-// job application styling
-#task-cards{
-  width: 21rem;
-  max-height: 600px;
-  min-height: 600px;
-  text-align: center;
-  margin-bottom: 50px;
-  box-shadow: 0 2px 1px rgba(0,0,0,.08);
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-#card-desription{
-  min-height: 150px;
-}
-
-#card-button{
-  background-color: #006494;
-
 }

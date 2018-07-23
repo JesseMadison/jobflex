@@ -17,3 +17,9 @@
 </div>
 
 <!-- <%= image_tag @task.attachments.image_url %> -->
+
+<%= link_to 'Post a task' , employees_path(:task_id => @task.id), method: :post %>
+
+
+<img class="card-img-top" src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif" alt ="Card image cap">
+  <div class="card-body">

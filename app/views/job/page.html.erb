@@ -2,23 +2,24 @@
 <div class="container">
 
 
-  <div id= 'task-card-padding'class="row">
+  <div id= 'task-card-padding' class="row">
 
     <% @tasks.each do |task| %>
     <div  class="col-sm">
 
       <!-- bootstrap title and image -->
       <div id='task-cards' class="card" >
-        <h5 class="card-title"><%= task.task_title %></h5>
+        <h5 class="card-title"><%= task.task_title.capitalize  %></h5>
         <img class="card-img-top" src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif" alt ="Card image cap">
           <div class="card-body">
 
               <!-- bootstrap card contents -->
-              <p id='card-desription' class='card-text' ><%= task.description  %></p>
-              <p class="card-text"><%=  task.location %></p>
-              <p class="card-text"><%= task.date.strftime("%B %e, %Y at %I:%M %p") %></p>
-              <p class="card-text"><%= task.offering %></p>
-              <p id=card-button class="btn btn-primary"><%= link_to "Browse tasks",task_path(task), {:style=>'color: #13293D;, text-decoration: none;'}%></p><!--  this part ^^^^ is used to style my link_to tags-->
+              <p id="card-contents" class='card-text' ><%= task.description.capitalize   %></p>
+              <p id="card-contents" class="card-text">Location:<br><%=  task.location %></p>
+              <p id="card-contents" class="card-text">Task date:<br>
+                <%= task.date.strftime("%B %e, %Y at %I:%M %p") %></p>
+              <p id="card-contents" class="card-text">Money for completed task:<br>$<%= task.offering %></p>
+              <p id="card-button" class="btn btn-primary"><%= link_to "Browse tasks",task_path(task), {:style=>'color: #13293D;, text-decoration: none;'}%></p><!--  this part ^^^^ is used to style my link_to tags-->
 
           </div>
 
