@@ -16,7 +16,7 @@
   background-size: cover;
   height: 100%;
   overflow: hidden;
-  min-height: 837px;
+  min-height: 1000px;
 }
 
 
@@ -72,6 +72,7 @@ text-decoration: none;
 // Across the whole web app
 body{
   background-color: #F5F5F5;
+  max-height: 100vh;
 }
 
 
