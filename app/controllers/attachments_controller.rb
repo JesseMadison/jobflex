@@ -29,7 +29,7 @@ class AttachmentsController < ApplicationController
     @attachment.task_id = @task.id
     respond_to do |format|
       if @attachment.save
-        format.html { redirect_to @task, notice: 'Attachment was successfully created.' }
+        format.html { redirect_to job_page_path, notice: 'Attachment was successfully created.' }
         format.json { render :show, status: :created, location: @attachment }
       else
         format.html { render :new }

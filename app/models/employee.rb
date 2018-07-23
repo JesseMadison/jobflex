@@ -1,4 +1,4 @@
 class Employee < ApplicationRecord
-  belongs_to :user
-  belongs_to :task
+  has_and_belongs_to :user
+  has_and_belongs_to :task
 end

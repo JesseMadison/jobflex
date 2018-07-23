@@ -1,5 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+
+
+
+
+
 <p>
   <strong>Task title:</strong>
   <%= @task.task_title %>
@@ -33,7 +38,7 @@
 <%= render "attachments/form", attachment: @attachment , task: @task %>
 
 
-<%= image_tag @task.attachments.first.image_url %>
+
 <%= link_to "Buy", new_charge_path(:task_id => @task.id), method: :get, class: "btn btn-primary" %>
 
 <%= link_to 'Post a task' , employees_path(:task_id => @task.id), method: :post %>

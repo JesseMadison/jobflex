@@ -6,6 +6,13 @@
 
 
 // job application styling
+
+#task-card-padding{
+  padding-top: 10px;
+}
+
+
+
 #task-cards{
   width: 21rem;
   max-height: 600px;
@@ -24,4 +31,12 @@
 #card-button{
   background-color: #006494;
 
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    min-height: 300px;
+    max-height: 300px;
 }

@@ -2,18 +2,18 @@
 <div class="container">
 
 
-  <div class="row">
+  <div id= 'task-card-padding'class="row">
 
     <% @tasks.each do |task| %>
     <div  class="col-sm">
 
-
+      <!-- bootstrap title and image -->
       <div id='task-cards' class="card" >
         <h5 class="card-title"><%= task.task_title %></h5>
         <img class="card-img-top" src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif" alt ="Card image cap">
           <div class="card-body">
 
-
+              <!-- bootstrap card contents -->
               <p id='card-desription' class='card-text' ><%= task.description  %></p>
               <p class="card-text"><%=  task.location %></p>
               <p class="card-text"><%= task.date.strftime("%B %e, %Y at %I:%M %p") %></p>
