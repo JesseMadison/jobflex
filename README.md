@@ -47,34 +47,13 @@ I wanted to ensure my site was visually free flowing for my users so i feel i ma
 
 "In branding: White often communicates simplicity or a clean, modern quality. Designers seeking a minimalist aesthetic will frequently use a lot of white."
 
-I ultimately wanted to keep my site colour scheme simplistic, yet professional, while keeping mellow undertone. 
+I ultimately wanted to keep my site colour scheme simplistic, yet professional, while keeping mellow undertone.
 
 
 ## Features
 - Allows users to easily browse through what jobs have been posted in their area.
 - Offers the ability for employers have the opportunity to offer work to individuals in their area
 -  Advertise yourself via your user profile. Be able to show off your pass work, show what certifications you have and most importantly show off your personality.
-
-
-
-
-### Development
-Want to contribute? Great!
-
-To fix a bug or enhance an existing module, follow these steps:
-
-- Fork the repo
-- Create a new branch (git checkout -b improve-feature)
-- Make the appropriate changes in the files
-- Add changes to reflect the changes made
-- Commit your changes (git commit -am 'Improve feature')
-- Push to the branch (git push origin improve-feature)
-- Create a Pull Request
-
-### Bug / Feature Request
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/JesseMadison/jobflex/issues?q=is%3Aopen+is%3Aissue) by including your search query and the expected result.
-
-If you'd like to request a new function, feel free to do so by opening an [issue](https://github.com/JesseMadison/jobflex/issues) Please include sample queries and their corresponding results.
 
 # Built With
 - [Devise Gem](https://github.com/plataformatec/devise)  (User authentication)
@@ -109,6 +88,8 @@ If you'd like to request a new function, feel free to do so by opening an [issue
 ## User story
   [Jobflex board](https://trello.com/b/h6r3FNfp/2-sided-marketplace)
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Trello.jpg)
+## Project Estimation
+  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Trello.jpg)
 
   # Future development / project improvements
   - Implement a mailing service into the app
@@ -128,3 +109,21 @@ If you'd like to request a new function, feel free to do so by opening an [issue
     | How it works     | About us | Terms & conditions |
     | Blog     | Careers      |   Contact us |
     | New users FAQ | Community guidelines     |    Privacy policy|
+
+    ### Development
+    Want to contribute? Great!
+
+    To fix a bug or enhance an existing module, follow these steps:
+
+    - Fork the repo
+    - Create a new branch (git checkout -b improve-feature)
+    - Make the appropriate changes in the files
+    - Add changes to reflect the changes made
+    - Commit your changes (git commit -am 'Improve feature')
+    - Push to the branch (git push origin improve-feature)
+    - Create a Pull Request
+
+    ### Bug / Feature Request
+    If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/JesseMadison/jobflex/issues?q=is%3Aopen+is%3Aissue) by including your search query and the expected result.
+
+    If you'd like to request a new function, feel free to do so by opening an [issue](https://github.com/JesseMadison/jobflex/issues) Please include sample queries and their corresponding results.
