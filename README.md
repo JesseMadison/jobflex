@@ -89,7 +89,7 @@ I ultimately wanted to keep my site colour scheme simplistic, yet professional, 
   [Jobflex board](https://trello.com/b/h6r3FNfp/2-sided-marketplace)
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Trello.jpg)
 ## Project Estimation
-  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Trello.jpg)
+  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Task%20Estimation.jpg)
 
   # Future development / project improvements
   - Implement a mailing service into the app
