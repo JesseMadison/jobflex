@@ -19,7 +19,7 @@ There are quite a few bits of information that points towards a change in the cu
 
 
 
-This blog demonstrates these points in more detail: https://medium.com/betterworkingworld/future-of-work-mindset-shift-your-thinking-to-do-work-that-matters-16d889d6a3b3
+This blog demonstrates these points in more detail: [future of work mindset](https://medium.com/betterworkingworld/future-of-work-mindset-shift-your-thinking-to-do-work-that-matters-16d889d6a3b3)
 
 I designed this app to give people a head start before the swift. I designed it with the idea of being able to work where ever you can imagine, work on your dreams when it suits you.
 
