@@ -92,16 +92,16 @@ If you'd like to request a new function, feel free to do so by opening an [issue
 
   ## Jobflex Wireframe
   - Login page
-  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Log%20in%20page.jpg")
+  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Log%20in%20page.jpg)
   - Home page
-  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Home%20page%20wireframe.jpg")
+  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Home%20page%20wireframe.jpg)
   - Profile page
-  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/New%20profile.jpg")
+  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/New%20profile.jpg)
   - Browse task page
-  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Browse%20task.jpg")
+  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Browse%20task.jpg)
   - Create task page
-  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/New%20task.jpg")
+  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/New%20task.jpg)
   ## Entity Relationship Diagram
-  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/ERD.jpg")
+  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/ERD.jpg)
   ## Flowchart
-  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/ERD.jpg")
+  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/ERD.jpg)
