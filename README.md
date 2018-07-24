@@ -1,11 +1,15 @@
 # Jobflex ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 Jobflex image here
-![alt" text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Screen%20Shot%202018-07-24%20at%202.23.33%20am.png")
+![alt" text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Homepage.jpg")
 
 
 
 ## Introduction
+[Jobflex](https://jobfflex.herokuapp.com/)
+
+[Jobflex Github repository](https://github.com/JesseMadison/jobflex)
+
 When it comes to working in today's day and age, change is the even, so we need to adapt and evolve with it if we are to flourish in the workplace of the future.
 There are quite a few bits of information that points towards a change in the current and future working mindsets of individuals.
 - The decline of full-time work
@@ -60,7 +64,8 @@ If you'd like to request a new function, feel free to do so by opening an [issue
 - [Devise Gem](https://github.com/plataformatec/devise)  (User authentication)
 - [Bootstrap 4.1](https://getbootstrap.com/)  (Webpage Styling)
 - [Stripe](https://stripe.com/au)   (For payment)
-- [Fontawesome](https://fontawesome.com/)(App icons and text fonts)
+- [Fontawesome](https://fontawesome.com/)(App icons)
+- [GoogleFonts](https://fonts.google.com/?selection.family=Josefin+Sans|Lora|Oswald|Poppins|Slabo+27px)
 - [Carrierwave](https://github.com/carrierwaveuploader/carrierwave)  (Image uploader)
 - [mdbootstrap](https://mdbootstrap.com/)(Styling properties)
 - [Design inspiration](https://colorlib.com/wp/template/faith/)
@@ -73,7 +78,7 @@ If you'd like to request a new function, feel free to do so by opening an [issue
 - Implement a personal message system so users can have more effective communication with on another
 - Change the layout of how the payment system works, the main idea behind it is, that users get paid after the job is done, rather then getting paid as soon as the job is accepted
 - User profile picture
-- A serch function to search task posting by either category or location
+- A search function to search task posting by either category or location
 
 
 - Pages still to create
@@ -84,3 +89,17 @@ If you'd like to request a new function, feel free to do so by opening an [issue
   | How it works     | About us | Terms & conditions |
   | Blog     | Careers      |   Contact us |
   | New users FAQ | Community guidelines     |    Privacy policy|
+
+  # Jobflex Wireframe
+  - Login page
+  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Log%20in%20page.jpg")
+  - Home page
+  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Home%20page%20wireframe.jpg")
+  - Profile page
+  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/New%20profile.jpg")
+  - Browse task page
+  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Browse%20task.jpg")
+  - Create task page
+  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/New%20task.jpg")
+  # Entity Relationship Diagram
+  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/ERD.jpg")

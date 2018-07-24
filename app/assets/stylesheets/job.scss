@@ -1,19 +1,12 @@
 // Place all the styles related to the job controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-
-
-
 // job application styling
-
-#task-card-padding{
+#task-card-padding {
   padding-top: 10px;
 }
 
-
-
-#task-cards{
+#task-cards {
   width: 21rem;
   max-height: 900px;
   min-height: 900px;
@@ -24,19 +17,18 @@
   overflow: hidden;
 }
 
-#card-contents{
+#card-contents {
   min-height: 100px;
 }
 
-#card-button{
+#card-button {
   background-color: #006494;
-
 }
 
 .card-img-top {
-    width: 100%;
-    border-top-left-radius: calc(0.25rem - 1px);
-    border-top-right-radius: calc(0.25rem - 1px);
-    min-height: 300px;
-    max-height: 300px;
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  min-height: 300px;
+  max-height: 300px;
 }
