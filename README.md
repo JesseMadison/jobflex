@@ -104,6 +104,9 @@ If you'd like to request a new function, feel free to do so by opening an [issue
 
   ## Entity Relationship Diagram
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/ERD.jpg)
-  
+
   ## Flowchart
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Workflow.jpg)
+  ## User story
+  [Jobflex board](https://trello.com/b/h6r3FNfp/2-sided-marketplace)
+  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/New%20task.jpg)
