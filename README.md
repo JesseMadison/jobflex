@@ -1,7 +1,7 @@
 # Jobflex ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 Jobflex image here
-![alt text]("app/assets/images/Screen Shot 2018-07-24 at 2.23.33 am.png")
+![alt" text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Screen%20Shot%202018-07-24%20at%202.23.33%20am.png")
 
 
 

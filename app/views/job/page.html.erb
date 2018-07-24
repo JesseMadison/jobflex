@@ -11,10 +11,11 @@
       <div id='task-cards' class="card" >
         <h5 class="card-title"><%= task.task_title.capitalize  %></h5>
         <img class="card-img-top" src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif" alt ="Card image cap">
+
           <div class="card-body">
 
               <!-- bootstrap card contents -->
-              <p id="card-contents" class='card-text' ><%= task.description.capitalize   %></p>
+              <p id="card-contents" class='card-text' >Description:<%= truncate(task.description.capitalize, length: 25)  %></p>
               <p id="card-contents" class="card-text">Location:<br><%=  task.location %></p>
               <p id="card-contents" class="card-text">Task date:<br>
                 <%= task.date.strftime("%B %e, %Y at %I:%M %p") %></p>
@@ -27,5 +28,6 @@
 
     </div>
     <% end %>
+
   </div>
 </div>

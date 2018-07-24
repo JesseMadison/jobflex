@@ -50,3 +50,28 @@ body{
   background-color: #F5F5F5;
   max-height: 100vh;
 }
+
+
+
+// Home page footer
+.pt-4, .py-4 {
+    padding-top: 1.5rem !important;
+    background-color: #30343F;
+  }
+
+  .text-center {
+
+    color: whitesmoke;
+}
+
+
+// Footer link tags
+#footer-content{
+  color: white;
+}
+
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    color: white;
+}
