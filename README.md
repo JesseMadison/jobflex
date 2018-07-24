@@ -1,7 +1,7 @@
 # Jobflex ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 Jobflex image here
-![alt" text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Homepage.jpg")
+![erd](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/ERD.jpg)
 
 
 
@@ -90,7 +90,7 @@ If you'd like to request a new function, feel free to do so by opening an [issue
   | Blog     | Careers      |   Contact us |
   | New users FAQ | Community guidelines     |    Privacy policy|
 
-  # Jobflex Wireframe
+  ## Jobflex Wireframe
   - Login page
   ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Log%20in%20page.jpg")
   - Home page
@@ -101,5 +101,7 @@ If you'd like to request a new function, feel free to do so by opening an [issue
   ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Browse%20task.jpg")
   - Create task page
   ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/New%20task.jpg")
-  # Entity Relationship Diagram
+  ## Entity Relationship Diagram
+  ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/ERD.jpg")
+  ## Flowchart
   ![alt text]("https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/ERD.jpg")
