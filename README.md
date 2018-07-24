@@ -31,7 +31,23 @@ With the change moving towards more freelance work i wanted to create a platform
 
 Their is also a section for users that wish to offer work out for individuals too.  
 
+## Designed choice
+### What type of font i used
+Sans-Serif: doesn't have the extra lines on the ends of letters. For that reason they’re generally thought to look more modern and streamlined.
 
+Amongst UI designers, it’s commonly said that serifs make long passages in print, easier to navigate visually, helping move your eyes follow along the lines of text. However UI designers point out, because serifs are usually small and thin, they often don’t display as well on pixel-based screens they are described as looking distorted and noisy rather than clear and crisp as you would find compared with other fonts, so many designers favour sans-serif fonts for web use.
+I wanted to ensure my site was visually free flowing for my users so i feel i mad the right choice :)
+
+### Why i went with blue tones
+[Qouted from Canva](https://www.canva.com/learn/color-theory/)
+
+"In branding: Blue is widely used and one of the most versatile colors. It’s generally used to communicate trustworthiness, security, and stability. Dark or navy blue is a particularly popular choice for corporate contexts, since it’s perceived to have serious, conservative, and professional qualities."
+### Why i went with white
+[Qouted from Canva](https://www.canva.com/learn/color-theory/)
+
+"In branding: White often communicates simplicity or a clean, modern quality. Designers seeking a minimalist aesthetic will frequently use a lot of white."
+
+I ultimately wanted to keep my site colour scheme simplistic, yet professional, while keeping mellow undertone. 
 
 
 ## Features
@@ -65,48 +81,50 @@ If you'd like to request a new function, feel free to do so by opening an [issue
 - [Bootstrap 4.1](https://getbootstrap.com/)  (Webpage Styling)
 - [Stripe](https://stripe.com/au)   (For payment)
 - [Fontawesome](https://fontawesome.com/)(App icons)
-- [GoogleFonts](https://fonts.google.com/?selection.family=Josefin+Sans|Lora|Oswald|Poppins|Slabo+27px)
+- [GoogleFonts](https://fonts.google.com/?selection.family=Josefin+Sans|Lora|Oswald|Poppins|Slabo+27px)(Font style)
 - [Carrierwave](https://github.com/carrierwaveuploader/carrierwave)  (Image uploader)
 - [mdbootstrap](https://mdbootstrap.com/)(Styling properties)
 - [Design inspiration](https://colorlib.com/wp/template/faith/)
 - HD photos where found >[here](https://unsplash.com/)<
 
-# Future development / project improvements
-- Implement a mailing service into the app
-- Add a rating system so users are able to rate other users based of their experience working with them, out of 5 stars
-- Add a commenting feature to the task cards, so users can have better interactivity with the employer
-- Implement a personal message system so users can have more effective communication with on another
-- Change the layout of how the payment system works, the main idea behind it is, that users get paid after the job is done, rather then getting paid as soon as the job is accepted
-- User profile picture
-- A search function to search task posting by either category or location
 
 
-- Pages still to create
-
-
-- |               |               |        |     
-  | ------------- |:-------------:| -----:|
-  | How it works     | About us | Terms & conditions |
-  | Blog     | Careers      |   Contact us |
-  | New users FAQ | Community guidelines     |    Privacy policy|
-
-  ## Jobflex Wireframe
-  - Login page
+## Jobflex Wireframe
+- Login page
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Log%20in%20page.jpg)
-  - Home page
+- Home page
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Home%20page%20wireframe.jpg)
-  - Profile page
+- Profile page
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/New%20profile.jpg)
-  - Browse task page
+- Browse task page
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Browse%20task.jpg)
-  - Create task page
+- Create task page
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/New%20task.jpg)
 
   ## Entity Relationship Diagram
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/ERD.jpg)
 
-  ## Flowchart
+## Flowchart
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Workflow.jpg)
-  ## User story
+## User story
   [Jobflex board](https://trello.com/b/h6r3FNfp/2-sided-marketplace)
-  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/New%20task.jpg)
+  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Trello.jpg)
+
+  # Future development / project improvements
+  - Implement a mailing service into the app
+  - Add a rating system so users are able to rate other users based of their experience working with them, out of 5 stars
+  - Add a commenting feature to the task cards, so users can have better interactivity with the employer
+  - Implement a personal message system so users can have more effective communication with on another
+  - Change the layout of how the payment system works, the main idea behind it is, that users get paid after the job is done, rather then getting paid as soon as the job is accepted
+  - User profile picture
+  - A search function to search task posting by either category or location
+
+
+  - Pages still to create
+
+
+  - |               |               |        |     
+    | ------------- |:-------------:| -----:|
+    | How it works     | About us | Terms & conditions |
+    | Blog     | Careers      |   Contact us |
+    | New users FAQ | Community guidelines     |    Privacy policy|
