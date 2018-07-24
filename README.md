@@ -89,41 +89,55 @@ I ultimately wanted to keep my site colour scheme simplistic, yet professional, 
   [Jobflex board](https://trello.com/b/h6r3FNfp/2-sided-marketplace)
   ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Trello.jpg)
 ## Project Estimation
-  ![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Task%20Estimation.jpg)
+![alt text](https://github.com/JesseMadison/jobflex/blob/master/app/assets/images/Task%20Estimation.jpg)
 
-  # Future development / project improvements
-  - Implement a mailing service into the app
-  - Add a rating system so users are able to rate other users based of their experience working with them, out of 5 stars
-  - Add a commenting feature to the task cards, so users can have better interactivity with the employer
-  - Implement a personal message system so users can have more effective communication with on another
-  - Change the layout of how the payment system works, the main idea behind it is, that users get paid after the job is done, rather then getting paid as soon as the job is accepted
-  - User profile picture
-  - A search function to search task posting by either category or location
-
-
-  - Pages still to create
+# Future development / project improvements
+- Implement a mailing service into the app
+- Add a rating system so users are able to rate other users based of their experience working with them, out of 5 stars
+- Add a commenting feature to the task cards, so users can have better interactivity with the employer
+- Implement a personal message system so users can have more effective communication with on another
+- Change the layout of how the payment system works, the main idea behind it is, that users get paid after the job is done, rather then getting paid as soon as the job is accepted
+- User profile picture
+- A search function to search task posting by either category or location
 
 
-  - |               |               |        |     
+- Pages still to create
+
+
+ - |               |               |        |     
     | ------------- |:-------------:| -----:|
     | How it works     | About us | Terms & conditions |
     | Blog     | Careers      |   Contact us |
-    | New users FAQ | Community guidelines     |    Privacy policy|
+    | New users FAQ | Community guidelines     |  Privacy policy|
 
-    ### Development
-    Want to contribute? Great!
+## Installation
 
-    To fix a bug or enhance an existing module, follow these steps:
+### To install Jobflex
 
-    - Fork the repo
-    - Create a new branch (git checkout -b improve-feature)
-    - Make the appropriate changes in the files
-    - Add changes to reflect the changes made
-    - Commit your changes (git commit -am 'Improve feature')
-    - Push to the branch (git push origin improve-feature)
-    - Create a Pull Request
+`$ git clone https://github.com/JesseMadison/jobflex.git`
 
-    ### Bug / Feature Request
-    If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/JesseMadison/jobflex/issues?q=is%3Aopen+is%3Aissue) by including your search query and the expected result.
+`$ cd jobflex`
 
-    If you'd like to request a new function, feel free to do so by opening an [issue](https://github.com/JesseMadison/jobflex/issues) Please include sample queries and their corresponding results.
+`$ bundle install`
+
+`$ rake db:create`(Postgresql Database)
+
+`$ rake db:migrate`
+
+
+### Development
+Want to contribute? Great!
+To fix a bug or enhance an existing module, follow these steps:
+
+- Fork the repo
+- Create a new branch (git checkout -b improve-feature)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (git commit -am 'Improve feature')
+- Push to the branch (git push origin improve-feature)
+- Create a Pull Request
+
+### Bug / Feature Request
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/JesseMadison/jobflex/issues?q=is%3Aopen+is%3Aissue) by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an [issue](https://github.com/JesseMadison/jobflex/issues) Please include sample queries and their corresponding results.
