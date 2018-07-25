@@ -56,6 +56,8 @@ I ultimately wanted to keep my site colour scheme simplistic, yet professional, 
 -  Advertise yourself via your user profile. Be able to show off your pass work, show what certifications you have and most importantly show off your personality.
 
 # Built With
+- [Ruby 2.4.1](https://www.ruby-lang.org/en/)
+- [Rails 5.2.0](http://railsapps.github.io/installing-rails.html)
 - [Devise Gem](https://github.com/plataformatec/devise)  (User authentication)
 - [Bootstrap 4.1](https://getbootstrap.com/)  (Webpage Styling)
 - [Stripe](https://stripe.com/au)   (For payment)
